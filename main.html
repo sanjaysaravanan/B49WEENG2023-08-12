@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+  <style type='text/css'>
+    /* shapes and other transforms */
+    div {
+      /* transform: rotate(30deg); */
+      /* transform: scale(2); */
+      /* transform: skew(20deg); */
+      /* transform: translate(100px, 100px); */
+    }
+
+    div:focus {
+      background-color: red !important;
+      height: 150px !important;
+      width: 150px !important;
+    }
+
+    input:focus {
+      border: 2px solid red !important;
+    }
+
+    input:focus-visible {
+      outline: 2px solid red !important;
+      /* border: 2px solid red !important; */
+    }
+
+    a:active {
+      color: green !important;
+    }
+
+    a:visited {
+      color: red;
+    }
+
+    input[type="radio"]:checked {
+      transform: scale(2);
+      color: red;
+    }
+
+    label::after {
+      content: "";
+      color: red;
+      display: block;
+      width: 10px;
+      height: 10px;
+      background-color: red;
+    }
+
+    div>p {
+      color: green;
+    }
+
+
+    h1:first-child {
+      color: rgba(0, 16, 120, 0.5);
+    }
+
+    h1:last-child {
+      color: rgba(0, 120, 10, 0.5);
+    }
+
+    h1:nth-child(2) {
+      color: red;
+    }
+
+    h2:nth-of-type(odd) {
+      color: blue
+    }
+
+    h2:nth-of-type(even) {
+      color: violet
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- <nav style="height: 100px;width: 100px;background-color: red;"></nav> -->
+  <!-- <div style="height: 100px;width: 100px;background-color: aqua;"></div>
+
+  <label>Full Name</label>
+  <input type="text" name="" required />
+
+  <a href="https://google.com">Click Here</a>
+
+  <input type="radio" name="radio" />
+  <input type="radio" name="radio" />
+
+  <div>
+    <p>Sample Paragraph</p>
+    <span>
+      <p>Sample Paragraph Inner</p>
+    </span>
+  </div>
+
+  <p>Sample Paragraph</p> -->
+
+  <div>
+    <!-- <span></span> -->
+    <h1>1</h1>
+    <h1>
+      2
+    </h1>
+    <h1>
+      3
+    </h1>
+  </div>
+  <h1>
+    1
+  </h1>
+  <h1>
+    2
+  </h1>
+  <h1>
+    3
+  </h1>
+  <h2>random</h2>
+  <h2>random</h2>
+  <div>
+    <h2>1</h2>
+    <h2>2</h2>
+    <h2>3</h2>
+    <h2>4</h2>
+  </div>
+
+</body>
+
+</html>

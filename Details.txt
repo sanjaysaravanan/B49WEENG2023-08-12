@@ -1,0 +1,53 @@
+
+Topics:
+
+
+  hexadecimal and rgba
+
+  display: none; removes the tag/element from the dom
+  visibility: hidden; just hides the tag/element in the dom, note: element stays in the DOM
+
+  float: floats the unused space and makes it available to other elements
+
+  CSS:
+    transform
+      rotate: rotates the element in any of the axes x, y, z direction
+      scale: scales up/down the element in any of the axes
+      skew: skews the element in any of the axes
+      translate: moving the element in any of the axes
+    States:
+      hover
+      focus
+      active
+      visited
+      input types
+    
+    pseudo classes:
+      before
+      after
+    
+    Selection child and inner child styling
+
+      1. Immediate Child Selection
+      2. nth-child Selection
+        first-child
+        last-child
+        nth-child
+        nth-of-type
+
+  Bootstrap Design Demo
+    grid
+      container > row > col
+
+      specific to devices
+  
+Next Session:
+  transitions
+
+  animations
+
+  SASS:
+
+    SCSS
+
+    Compilation of scss to CSS
